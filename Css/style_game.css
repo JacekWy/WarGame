@@ -44,15 +44,18 @@ nav{
     text-align: center;
 }
 section{
-    height: 50px;
+    height: 200px;
     display: flex;
     margin-top: 22px;
     font-size: 30px;
+    text-align: center;
+
     
 }
 .wood{
     background-color: darkgoldenrod;
     width: 50%;
+    
 }
 .stone{
     background-color: darkmagenta;
