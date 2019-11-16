@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(../Images/tlo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    margin: auto;
+}
+.image_cover{
+    background-image:url(../Images/Back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    object-fit: fill;
+    border:solid black;   
+}
+.image_cover h1{
+    text-align: center;
+    font-size: 70px;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+nav{
+    background-color:gray;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+}
+.container{
+    height: 500px;
+    display: flex;
+}
+.left{
+    background-color: rgb(111, 71, 255);
+    width:50%;
+    text-align: center;
+    
+}
+.right{
+    background-color: rgb(45, 224, 21);
+    width: 50%;
+    text-align: center;
+}
+.register{
+    margin-top: 170px;
+    
+}
+.register a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
