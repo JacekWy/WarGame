@@ -46,6 +46,7 @@ nav a{
     width:50%;
     text-align: center;
     
+    
 }
 .right{
     background-color: rgb(45, 224, 21);
@@ -53,11 +54,8 @@ nav a{
     text-align: center;
 }
 .register{
-    margin-top: 170px;
-    
-}
-.register a{
-    text-decoration: none;
+    margin-top: 70px;
     font-size: 20px;
-    color: red;
+    
+    
 }
