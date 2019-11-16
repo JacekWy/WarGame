@@ -13,15 +13,17 @@
             <h1>WarGame</h1>
         </div>
     </header>
+    <?php
+        require_once ("Game_core.php");
+    ?>
     <nav>
     <div class="city">Osada</div>
-    <div class="user_name">Jacek</div>
+    <div class="user_name">User:<?php echo $user;?></div>
     </nav>
     <section>
         <div class="wood">s</div>
         <div class="stone">asd</div>
         <div class="food">asd</div>
-
     </section>
 </body>
 </html>
