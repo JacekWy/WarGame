@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(../Images/tlo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    margin: auto;
+}
+.image_cover{
+    background-image:url(../Images/Back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    object-fit: fill;
+    border:solid black;   
+}
+.image_cover h1{
+    text-align: center;
+    font-size: 70px;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+nav{
+    height: 50px;
+    display: flex;
+    
+}
+.user_name{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(0, 139, 74);
+    font-size: 40px;
+}
+.city{
+    font-size: 40px;
+    width: 50%;
+    background-color: cornsilk;
+    text-align: center;
+}
+section{
+    height: 50px;
+    display: flex;
+    margin-top: 22px;
+    
+}
+.wood{
+    background-color: darkgoldenrod;
+    width: 50%;
+}
+.stone{
+    background-color: darkmagenta;
+    width: 50%;
+}
+.food{
+    background-color: greenyellow;
+    width: 50%;
+}
+
