@@ -25,7 +25,11 @@
         <div class="wood">Wood:<?php echo $material_row['wood'];?>
             <h4>Production:<?php echo $prod_wood; ?>/min</h4>
             <h5>Lvl:<?php echo $material_row['wood_lvl']; ?></h5>
-            <h5><?php echo $update_wood_click; ?></h5>
+            <h5><?php echo 'Wood:'.$update_wood_w.'</br>',
+                      'Stone:'.$update_wood_s.'</br>',
+                       'Food:'.$update_wood_f.'</br>',
+                       'Next lvl'
+                       ?></h5>
         </div>
         <div class="stone">Stone:<?php echo $material_row['stone'];?>
             <h4>Production:<?php echo $prod_stone; ?>/min</h4>
