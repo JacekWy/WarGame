@@ -1,5 +1,6 @@
 <?php
     require_once ("Game_core.php");
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,14 +25,17 @@
         <div class="wood">Wood:<?php echo $material_row['wood'];?>
             <h4>Production:<?php echo $prod_wood; ?>/min</h4>
             <h5>Lvl:<?php echo $material_row['wood_lvl']; ?></h5>
+            <h5><?php echo $update_wood_click; ?></h5>
         </div>
         <div class="stone">Stone:<?php echo $material_row['stone'];?>
             <h4>Production:<?php echo $prod_stone; ?>/min</h4>
             <h5>Lvl:<?php echo $material_row['stone_lvl']; ?></h5>
+            
         </div>
         <div class="food">Food:<?php echo $material_row['food'];?>
             <h4>Production:<?php echo $prod_food; ?>/min</h4>
             <h5>Lvl:<?php echo $material_row['food_lvl'] ?></h5>
+            
         </div>
     </section>
 </body>

@@ -23,17 +23,22 @@ $prod_food = $json['Bulding']['Lvl'][$material_row['food_lvl']][2];
 
 
 //Update wood_lvl
-$update_wood_w = $json['Update_cost']['update_wood'][2][0];
-$update_wood_s = $json['Update_cost']['update_wood'][2][1];
-$update_wood_f = $json['Update_cost']['update_wood'][2][2];
+echo $update_wood_w = $json['Update_cost']['update_wood'][$material_row['wood_lvl']][0];
+echo $update_wood_s = $json['Update_cost']['update_wood'][$material_row['wood_lvl']][1];
+echo $update_wood_f = $json['Update_cost']['update_wood'][$material_row['wood_lvl']][2];
 
-if(($update_wood_w < $material_row['wood']) && ($update_wood_s < $material_row['stone']) && ($update_wood_f < $material_row['food']) ){
+if(($update_wood_w < $material_row['wood']) && ($update_wood_s < $material_row['stone']) && ($update_wood_f < $material_row['food']) )
+{
+    $update_wood_click = "Update";
+       // $conn->query("Update data_game.Login as login join data_game.user_data as mat on login.id = mat.id set mat.wood = mat.wood - 100 , mat.stone = mat.stone - 100,mat.food = mat.food - 100  where User = '$user'");
+        //$conn->query("Update data_game.Login as login join data_game.user_data as mat on login.id = mat.id set mat.wood_lvl = mat.wood_lvl + 1 where User = '$user'");
 
-    //$conn->query("Update data_game.Login as login join data_game.user_data as mat on login.id = mat.id set mat.wood = mat.wood - 100 , mat.stone = mat.stone - 100,mat.food = mat.food - 100  where User = '$user'");
-    //$conn->query("Update data_game.Login as login join data_game.user_data as mat on login.id = mat.id set mat.wood_lvl = mat.wood_lvl + 1 where User = '$user'");
+    
 }else{
-    echo " nie mozna";
+    $update_wood_click = "No Material to update";
+    
 }
+
 
 
 
